@@ -1,10 +1,6 @@
-$color-primary: white;
-$color-secondary: gray;
-
-
 /* First section */
 .s-1 {
-  color: $color-primary;
+  color: white;
   padding: 15px 30px;
   flex: 100%;
 
@@ -99,7 +95,7 @@ $color-secondary: gray;
   height: auto;
   display: flex;
   padding: 0 80px;
-  background-color: $color-primary;
+  background-color: white;
 
   .s-3-img {
     position: relative;
@@ -117,7 +113,7 @@ $color-secondary: gray;
   }
 
   .s-3-info {
-    color: $color-secondary;
+    color: gray;
     padding: 0 70px;
 
     h1 {
