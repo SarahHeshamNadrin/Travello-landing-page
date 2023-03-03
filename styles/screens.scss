@@ -1,0 +1,117 @@
+////////// BREAK POINT for desktop /////////
+@media screen and (max-width: 1100px) {
+  .s-2 {
+    flex-wrap: wrap;
+  }
+
+  .s-3 {
+    flex-direction: column;
+  }
+
+  .text--animated {
+    font-size: 60px;
+  }
+
+  .s-2-title {
+    padding: 0 30px;
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+}
+
+////////// BREAK POINT for tablet /////////
+@media screen and (max-width: 770px) {
+  .text--animated {
+    font-size: 40px;
+  }
+
+  .s-2 {
+    .s-2-info>p {
+      padding: 0 20px;
+    }
+
+    .s-2-title>h1 {
+      font-size: 30px;
+    }
+  }
+
+  .s-3 {
+    padding: 0 30px;
+
+    .s-3-info {
+      padding: 0;
+
+      h1 {
+        font-size: 35px;
+      }
+
+      h6 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+////////// BREAK POINT for mobile /////////
+@media screen and (max-width: 460px) {
+  .s-1,
+  .s-2,
+  .s-4 {
+    height: 450px !important;
+  }
+
+  .s-2 {
+    padding: 0 10px;
+
+    .imgs-collection {
+      img {
+        width: 75px;
+        height: 75px;
+      }
+    }
+
+    .s-2-title>h1 {
+      font-size: 16px;
+    }
+  }
+
+  .s-3 {
+    .s-3-info {
+      padding: 0 15px;
+
+      h1 {
+        font-size: 20px;
+      }
+
+      h6 {
+        font-size: 16px;
+      }
+
+      p {
+        line-height: 30px;
+        font-size: 11px;
+      }
+    }
+  }
+
+  .s-4 {
+    .s-4-title-2 {
+      font-size: 28px;
+    }
+
+    .email-input-container {
+      width: 300px;
+    }
+
+    .s-4-text {
+      font-size: 14px;
+      padding: 0 40px;
+    }
+  }
+}
